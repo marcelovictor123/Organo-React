@@ -1,6 +1,6 @@
 import './Banner.css'
 
-function Banner() {
+export const Banner = () => {
     return (
         <header className="banner">
             <img src="/imagens/banner.png" alt="Banner principal da pagina do organo" />
@@ -8,5 +8,3 @@ function Banner() {
     )
 
 }
-
-export default Banner
